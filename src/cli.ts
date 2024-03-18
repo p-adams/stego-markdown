@@ -1,3 +1,7 @@
+import { converter } from "./converter.ts";
+
 function main() {
-  // TODO: get user input
+  const [inputFile, outputFile] = Deno.args;
+  converter(inputFile, outputFile);
 }
+main();

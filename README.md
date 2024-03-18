@@ -9,5 +9,6 @@ stego-markdown is a Deno TypeScript project for converting Markdown files to HTM
 
 ## Installation
 
-[WIP]
 Ensure you have Deno installed: [Install Deno](https://deno.land/#installation)
+
+`deno run --allow-read --allow-write src/cli.ts "README.md" index.html`
